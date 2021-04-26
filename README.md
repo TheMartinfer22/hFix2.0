@@ -2,7 +2,7 @@
 
 Um projeto com o intuito de ajudar servidores com pequenas correções de bugs e até mesmo novas funções onde é possível até definir se o jogador pode ou não subir no teto do Nether.
 
-Demais programadores que queiram criar correções ou funcionalidades, fiquem a vontade.
+_Demais programadores que queiram criar correções ou funcionalidades, fiquem a vontade._
 
 ## Funcionalidades atuais.
 
