@@ -7,9 +7,9 @@ _Demais programadores que queiram criar correções ou funcionalidades, fiquem a
 ## Funcionalidades atuais.
 
 * **AntiNetherY** - Defina se o jogador pode ou não subir no teto do Nether.
+* **Correção de FakePlayers** - Arrume de uma vez por todas os jogadores falsos em seu servidor.
 
 
 ## Próximas Funcionalidades.
 
-* **Correção de FakePlayers** - Arrume de uma vez por todas os jogadores falsos em seu servidor.
 * **AntiVoid** - Defina se o jogador pode morrer pelo void ou não.
