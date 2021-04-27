@@ -1,8 +1,17 @@
-
 ###########################
 #       AntiNetherY       #
 ###########################
 
-ativarAntNetherY: true
-fraseAntiNetherYTOP: "&4Proíbido"
-fraseAntiNetherYDOWN: "Você não pode passar!"
+AtivarAntNetherY: true
+FraseAntiNetherYTOP: "&4Proíbido"
+FraseAntiNetherYDOWN: "Você não pode passar!"
+
+###########################
+#       FakePlayers       #
+###########################
+
+AtivarFakePlayers: true
+FakePlayers:
+  - "[IF]"
+  - "[Mekanism]"
+  - "[OutroFakePlayer]"
