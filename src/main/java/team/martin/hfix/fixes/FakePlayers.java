@@ -19,18 +19,21 @@ public class FakePlayers extends ConfigUtils implements Listener {
         }
     }
 
+    @EventHandler(priority = EventPriority.HIGH)
     public void fixPlayerBreak (BlockBreakEvent i){
         if (getFakePayers().contains(i.getPlayer().getName())){
             i.setCancelled(false);
         }
     }
 
+    @EventHandler(priority = EventPriority.HIGH)
     public void fixPlayerInteract (PlayerInteractEvent i){
         if (getFakePayers().contains(i.getPlayer().getName())){
             i.setCancelled(false);
         }
     }
 
+    @EventHandler(priority = EventPriority.HIGH)
     public void fixPlayerDamage (EntityDamageEvent i){
         if (getFakePayers().contains(i.getEntity().getName())){
             i.setCancelled(false);
