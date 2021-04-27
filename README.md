@@ -16,3 +16,4 @@ _Demais programadores que queiram criar correções ou funcionalidades, fiquem a
 
 * **AntiVoid** - Defina se o jogador pode morrer pelo void ou não.
 * **Sistema de Reload** - Você pode recarregar as configurações do plugin.
+* **Comando FakePlayers** - Você pode listar os fakeplayers atuando no momento e adicionar novos.
