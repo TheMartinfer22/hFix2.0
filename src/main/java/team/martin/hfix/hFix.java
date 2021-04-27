@@ -2,7 +2,7 @@ package team.martin.hfix;
 
 /**
  *
- * O plugin foi feito com o intuíto de arrumar alguns bugs e adicionar funcionalidades para os servidoes,
+ * O plugin foi feito com o intuíto de arrumar alguns bugs e adicionar funcionalidades para os servidores,
  * Caro desenvolvedor, permito apenas a criação de classes no projeto para você implementar novos recursos.
  * E sempre documente alterações.
  *
