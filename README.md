@@ -15,10 +15,15 @@
 </p>
 <div align="center">
 <details>
+ 
+ 
  <summary>🥟 Fale comigo</summary>
  
  **Discord**: Ｍａｒｔｉｎｆｅｒ２２ フラ#2169
+ 
  **E-mail**: admin@huddouting.team
+ 
+ 
 </details>
 
 I'm a simple man with objectives and high focus in programming, also i have 21 years old and living in Brazil.
