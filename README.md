@@ -32,7 +32,7 @@ I'm a simple man with objectives and high focus in programming, also i have 21 y
 <p align="center"><a href="https://discord.gg/FPQVqZZ" target="_blank">Meus servidores</a></p>
 </div>
 
-<p></p>
+<br>
 
 ## Sobre
 
@@ -40,27 +40,25 @@ O projeto está em constante desenvolvimento, ele é criado para resolver proble
 
 Caso você quer apoiar no desenvolvimento e ajudar financeiramente basta enviar um pix para **admin@huddouting.team** :heart:
 
-<p></p>
 
 ## Recursos
-
+<br>
 
 | Recursos atuais |Sim|
-| ------------- | ------------- |
-| AntiNetherY |✅|
+|------|:---:
+| Bloqueio do teto do Nether |✅|
 | Correção de FakePlayers |✅|
+| Bloqueio de dano por void |⚠️|
+| Sistema de Otimizações |⚠️|
+| Correção de Breeding |⚠️|
+| Comandos de debug |⚠️|
 
-| Próximos recursos
-| ------------- |
-| AntiVoid 
-| Sistema de Reload 
-| Comando FakePlayers 
+<div align="center">
 
-<p></p>
+## A melhor hospedagem de Minecraft
 
-## A melhor hospedagem de Minecraft 
-* https://purplehost.com.br/
-<p align="left">
-<img src="https://i.imgur.com/ioaE6Kz.png" width="400" height="400"/>
-</p>
+https://purplehost.com.br/
+</div>
+<p align="center">
+<img src="https://i.imgur.com/ioaE6Kz.png width="400" height="400"/>
 
