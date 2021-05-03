@@ -37,17 +37,17 @@ Caso você quer apoiar no desenvolvimento e ajudar financeiramente basta enviar 
 ## Recursos
 
 
-| Recursos atuais |Yes|
+| Recursos atuais |Sim|
 | ------------- | ------------- |
 | AntiNetherY |✅|
 | Correção de FakePlayers |✅|
 
 
-| Próximos recursos
+| Próximos recursos |Confirmado|
 | ------------- | ------------- |
-| AntiVoid
-| Sistema de Reload
-| Comando FakePlayers
+| AntiVoid |✅|
+| Sistema de Reload |✅|
+| Comando FakePlayers ||
 
 ## A melhor hospedagem de Minecraft 
 * https://purplehost.com.br/
