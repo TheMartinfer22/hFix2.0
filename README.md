@@ -15,9 +15,9 @@
 </p>
 <div align="center">
 <details>
- <summary>🥟 Fale comigo pelo Discord!</summary>
+ <summary>🥟 Fale comigo</summary>
  
-* **Discord**: Ｍａｒｔｉｎｆｅｒ２２ フラ#2169
+ **Discord**: Ｍａｒｔｉｎｆｅｒ２２ フラ#2169
  
 </details>
 
