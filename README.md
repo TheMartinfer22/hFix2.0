@@ -48,7 +48,7 @@ Caso você quer apoiar no desenvolvimento e ajudar financeiramente basta enviar 
 |------|:---:
 | Bloqueio do teto do Nether |✅|
 | Correção de FakePlayers |✅|
-| Bloqueio de dano por void |⚠️|
+| Bloqueio de dano por void |✅️|
 | Sistema de Otimizações |⚠️|
 | Correção de Breeding |⚠️|
 | Comandos de debug |⚠️|
