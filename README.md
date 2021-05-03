@@ -18,7 +18,6 @@
  <summary>🥟 Fale comigo</summary>
  
  **Discord**: Ｍａｒｔｉｎｆｅｒ２２ フラ#2169
-
  **E-mail**: admin@huddouting.team
 </details>
 
