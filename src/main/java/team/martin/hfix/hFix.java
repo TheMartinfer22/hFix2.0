@@ -14,6 +14,7 @@ package team.martin.hfix;
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
 import team.martin.hfix.util.LogUtils;
+import team.martin.hfix.util.Metrics;
 
 public class hFix extends JavaPlugin {
 
@@ -24,6 +25,8 @@ public class hFix extends JavaPlugin {
         try {
             log.getInit();
             saveDefaultConfig();
+            int pluginId = 11241;
+            new Metrics(this, pluginId);
         } catch (Exception e){
             System.out.println(ChatColor.RED + "Algo deu errado na inicialização.");
             System.out.println(ChatColor.RED + "Reporte as frases abaixo na github https://github.com/TheMartinfer22/hFix");

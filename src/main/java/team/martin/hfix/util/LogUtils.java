@@ -6,7 +6,7 @@ public class LogUtils {
 
     public void getInit(){
         ConfigUtils cfg = new ConfigUtils();
-        System.out.println(ChatColor.GREEN + "  _       _____   _        \n" +
+        System.out.println("  _       _____   _        \n" +
                 " | |__   |  ___| (_) __  __\n" +
                 " | '_ \\  | |_    | | \\ \\/ /\n" +
                 " | | | | |  _|   | |  >  < \n" +

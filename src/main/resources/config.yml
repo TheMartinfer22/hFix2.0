@@ -1,10 +1,19 @@
 ###########################
-#       AntiNetherY       #
+#       AntiTetoNether    #
 ###########################
 
-AtivarAntNetherY: true
-FraseAntiNetherYTOP: "&4Proíbido"
-FraseAntiNetherYDOWN: "Você não pode passar!"
+AtivarAntiTetoNether: true
+raseAntiTetoDoNetherTOP: "&4Proíbido"
+raseAntiTetoDoNetherDOWN: "Você não pode passar!"
+
+
+###########################
+#       AntiDanoDoVoid    #
+###########################
+
+AtivarAntiDanoDoVoid: true
+PermissaoAntiVoid: "hfix.void" #Não deixe essa variável vazia.
+
 
 ###########################
 #       FakePlayers       #
