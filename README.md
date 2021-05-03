@@ -33,13 +33,13 @@ O projeto feito para 1.16 não foi testado em versões anteriores, mas caso não
 ## Recursos
 
 
-| Funcionalidades atuais |Yes|
+| Recursos atuais |Yes|
 | ------------- | ------------- |
 | AntiVoid |✅|
 | Correção de FakePlayers |✅|
 
 
-| Próximas funcionalidades |Yes|
+| Próximos recursos |Yes|
 | ------------- | ------------- |
 | AntiVoid |✅|
 | Sistema de Reload |✅|
