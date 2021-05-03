@@ -18,6 +18,8 @@
  <summary>🥟 Fale comigo</summary>
  
  **Discord**: Ｍａｒｔｉｎｆｅｒ２２ フラ#2169
+ **E-mail**: admin@huddouting.team
+ 
  
 </details>
 
@@ -37,15 +39,15 @@ Caso você quer apoiar no desenvolvimento e ajudar financeiramente basta enviar 
 
 | Recursos atuais |Yes|
 | ------------- | ------------- |
-| AntiVoid |✅|
+| AntiNetherY |✅|
 | Correção de FakePlayers |✅|
 
 
 | Próximos recursos |Yes|
 | ------------- | ------------- |
-| AntiVoid |✅|
-| Sistema de Reload |✅|
-| Comando FakePlayers |✅|
+| AntiVoid
+| Sistema de Reload
+| Comando FakePlayers
 
 ## A melhor hospedagem de Minecraft 
 * https://purplehost.com.br/
