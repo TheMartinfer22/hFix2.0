@@ -28,7 +28,7 @@ I'm a simple man with objectives and high focus in programming, also i have 21 y
 
 ## Começando
 
-O projeto feito para 1.16 mas funciona em versões anteriores
+O projeto feito para 1.16 não foi testado em versões anteriores, mas caso não funcione envie uma issue.
 
 ## Recursos
 
@@ -39,13 +39,13 @@ O projeto feito para 1.16 mas funciona em versões anteriores
 | Correção de FakePlayers |✅|
 
 
-| Próximas Funcionalidades |Yes|
+| Próximas funcionalidades |Yes|
 | ------------- | ------------- |
 | AntiVoid |✅|
 | Sistema de Reload |✅|
 | Comando FakePlayers |✅|
 
-## A Melhor Hospedagem De Minecraft 
+## A melhor hospedagem de Minecraft 
 * https://purplehost.com.br/
 <p align="left">
 <img src="https://i.imgur.com/ioaE6Kz.png" width="400" height="400"/>
