@@ -43,7 +43,7 @@ Caso você quer apoiar no desenvolvimento e ajudar financeiramente basta enviar 
 | Correção de FakePlayers |✅|
 
 
-| Próximos recursos |Yes|
+| Próximos recursos
 | ------------- | ------------- |
 | AntiVoid
 | Sistema de Reload
