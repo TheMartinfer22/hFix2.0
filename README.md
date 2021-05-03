@@ -60,5 +60,5 @@ Caso você quer apoiar no desenvolvimento e ajudar financeiramente basta enviar 
 https://purplehost.com.br/
 </div>
 <p align="center">
-<img src="https://i.imgur.com/ioaE6Kz.png width="400" height="400"/>
+<img src="https://i.imgur.com/pVuTwkq.png width="400" height="400"/>
 
