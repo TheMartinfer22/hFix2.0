@@ -16,13 +16,12 @@
 <div align="center">
 <details>
  
- 
+ <p></p>
  <summary>🥟 Fale comigo</summary>
  
  **Discord**: Ｍａｒｔｉｎｆｅｒ２２ フラ#2169
  
  **E-mail**: admin@huddouting.team
- 
  
 </details>
 
@@ -30,13 +29,13 @@ I'm a simple man with objectives and high focus in programming, also i have 21 y
 
 <p align="center"><a href="https://discord.gg/FPQVqZZ" target="_blank">Meus servidores</a></p>
 </div>
-
+<p></p>
 ## Sobre
 
 O projeto está em constante desenvolvimento, ele é criado para resolver problemas e trazer novas funções extras para assim proporcionar pequenas melhorias em seu servidor, ele é desenvolvido em códigos próprios (Com muita dor de cabeça) é um projeto com o objetivo pessoal de melhorar meu conhecimento no Java (Qualquer sugestão de melhorias basta abrir uma issue), ele foi feito para 1.16 não foi testado em versões anteriores, mas caso não funcione envie uma issue.
 
 Caso você quer apoiar no desenvolvimento e ajudar financeiramente basta enviar um pix para **admin@huddouting.team** :heart:
-
+<p></p>
 ## Recursos
 
 
