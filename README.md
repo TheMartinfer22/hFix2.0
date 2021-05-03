@@ -27,6 +27,8 @@
 
 I'm a simple man with objectives and high focus in programming, also i have 21 years old and living in Brazil.
 
+<p></p>
+
 <p align="center"><a href="https://discord.gg/FPQVqZZ" target="_blank">Meus servidores</a></p>
 </div>
 
