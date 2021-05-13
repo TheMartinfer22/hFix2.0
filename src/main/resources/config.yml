@@ -3,8 +3,8 @@
 ###########################
 
 AtivarAntiTetoNether: true
-raseAntiTetoDoNetherTOP: "&4Proíbido"
-raseAntiTetoDoNetherDOWN: "Você não pode passar!"
+FraseAntiTetoDoNetherTOP: "&4Proíbido"
+FraseAntiTetoDoNetherDOWN: "Você não pode passar!"
 
 
 ###########################
@@ -13,6 +13,16 @@ raseAntiTetoDoNetherDOWN: "Você não pode passar!"
 
 AtivarAntiDanoDoVoid: true
 PermissaoAntiVoid: "hfix.void" #Não deixe essa variável vazia.
+
+
+#######################################
+#       AtivarBanimentosDeBlocos      #
+#######################################
+
+AtivarBanimentosDeBlocos: true
+FraseDeBanidos: "Você não pode manipular esse bloco, ele está banido do servidor."
+BlocosBanidos:
+  - "minecraft:bedrock"
 
 
 ###########################
