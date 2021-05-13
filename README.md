@@ -53,8 +53,6 @@ Caso você quer apoiar no desenvolvimento e ajudar financeiramente basta enviar 
 | Sistema de banir blocos |[✅️] Em breve será alterado para banimentos em gerais, no momento apenas em testes.|
 | Sistema de Otimizações |⚠️|
 | Correção de Breeding |⚠️|
-| Comandos de debug |⚠️|
-
 <div align="center">
 
 ## A melhor hospedagem de Minecraft
