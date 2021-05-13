@@ -1,3 +1,4 @@
+
 <p align="center">
 <img src="https://avatars.githubusercontent.com/u/66142507?v=4" width="128" height="128"/>
 </p>
@@ -48,8 +49,8 @@ Caso você quer apoiar no desenvolvimento e ajudar financeiramente basta enviar 
 |------|:---:
 | Bloqueio do teto do Nether |✅|
 | Correção de FakePlayers |✅|
-| Bloqueio de dano por void |✅️| OBS: Desabilite caso utilize mods de magia, ou terá risco de deixar o jogador invencível pelo voidDamange.
-| Sistema de banir blocos |✅️| OBS: Em breve será alterado para banimentos em gerais, no momento apenas em testes.
+| Bloqueio de dano por void |[✅️] Desabilite caso utilize mods de magia, ou terá risco de deixar o jogador invencível pelo voidDamange. |
+| Sistema de banir blocos |[✅️] Em breve será alterado para banimentos em gerais, no momento apenas em testes.|
 | Sistema de Otimizações |⚠️|
 | Correção de Breeding |⚠️|
 | Comandos de debug |⚠️|
