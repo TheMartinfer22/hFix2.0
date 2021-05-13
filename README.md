@@ -1,4 +1,4 @@
-# hFix - Correções e novas funcionalidades para o seu servidor.
+## hFix - Correções e novas funcionalidades para o seu servidor.
 
 O projeto está em constante desenvolvimento, ele é criado para resolver problemas e trazer novas funções extras para assim proporcionar pequenas melhorias em seu servidor, ele é desenvolvido em códigos próprios (Com muita dor de cabeça) é um projeto com o objetivo pessoal de melhorar meu conhecimento no Java (Qualquer sugestão de melhoria ou problemas basta abrir uma issue), ele foi feito para 1.16 não foi testado em versões anteriores mas possui um sisteminha que irá detectar qualquer problema.
 
