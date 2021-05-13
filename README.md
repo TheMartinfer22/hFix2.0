@@ -12,7 +12,7 @@ Caso você quer apoiar no desenvolvimento e ajudar financeiramente basta enviar 
 |------|:---:
 | Bloqueio do teto do Nether |Você poderá bloquear que o jogador vá ao teto da dimensão do Nether.|
 | Correção de FakePlayers |Corrige todos os problemas causados por mods com máquinas na hora de executar alguma ação.|
-| Bloqueio de dano por void |Você poderá bloquear o dano por void mas desabilite caso utilize mods de magia, ou terá risco de deixar o jogador invencível pelo voidDamange. |
+| Bloqueio de dano por void |Você poderá bloquear o dano por void, mas desabilite caso utilize mods de magia, ou terá risco de deixar o jogador invencível pelo voidDamange. |
 | Sistema de banir blocos |Consiga bloquear a colocação e destruição de blocos em seu servidor, em breve será alterado para banimentos em gerais, no momento apenas em testes.|
 <div align="center">
 <br><br>
