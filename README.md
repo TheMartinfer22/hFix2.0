@@ -49,8 +49,8 @@ Caso você quer apoiar no desenvolvimento e ajudar financeiramente basta enviar 
 |------|:---:
 | Bloqueio do teto do Nether |✅|
 | Correção de FakePlayers |✅|
-| Bloqueio de dano por void |[✅️] Desabilite caso utilize mods de magia, ou terá risco de deixar o jogador invencível pelo voidDamange. |
-| Sistema de banir blocos |[✅️] Em breve será alterado para banimentos em gerais, no momento apenas em testes.|
+| Bloqueio de dano por void |✅️ Desabilite caso utilize mods de magia, ou terá risco de deixar o jogador invencível pelo voidDamange. |
+| Sistema de banir blocos |✅️ Em breve será alterado para banimentos em gerais, no momento apenas em testes.|
 | Sistema de Otimizações |⚠️|
 | Correção de Breeding |⚠️|
 <div align="center">
