@@ -11,11 +11,15 @@ import team.martin.hfix.util.ConfigUtils;
 
 public class FakePlayers extends ConfigUtils implements Listener {
 
+    /*
+     * Esses eventos estão como alta prioridade de execução para que possa ler cada ação,
+     * Não causará problemas de desempenho.
+     */
 
     @EventHandler(priority = EventPriority.HIGH)
     public void fixPlayerPlace (BlockPlaceEvent evento){
-        if (getFakePayers().contains(evento.getPlayer().getName())){
-            evento.setCancelled(false);
+        if (getFakePayers().contains(evento.getPlayer().getName())){ // Pegando o nome do jogador falso na lista config.yml
+            evento.setCancelled(false); // Não cancelar o evento e permitir que ele prossiga.
         }
     }
 
