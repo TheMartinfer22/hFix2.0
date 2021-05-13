@@ -1,13 +1,15 @@
+<center>
+
 ## hFix - Correções e novas funcionalidades para o seu servidor.
 
 O projeto está em constante desenvolvimento, ele é criado para resolver problemas e trazer novas funções extras para assim proporcionar pequenas melhorias em seu servidor, ele é desenvolvido em códigos próprios (Com muita dor de cabeça) é um projeto com o objetivo pessoal de melhorar meu conhecimento no Java (Qualquer sugestão de melhoria ou problemas basta abrir uma issue), ele foi feito para 1.16 não foi testado em versões anteriores mas possui um sisteminha que irá detectar qualquer problema.
 
 Caso você quer apoiar no desenvolvimento e ajudar financeiramente basta enviar um pix para **admin@huddouting.team** :heart:
-
+<br><br>
 
 ## Recursos
-<br>
 
+<br><br>
 | Recursos atuais |Descrição|
 |------|:---:
 | Bloqueio do teto do Nether |Você poderá bloquear que o jogador vá ao teto da dimensão do Nether.|
@@ -59,4 +61,6 @@ https://purplehost.com.br/
 </div>
 <p align="center">
 <img src="https://i.imgur.com/pVuTwkq.png width="400" height="400"/>
+                                                                  
+</center>
 
