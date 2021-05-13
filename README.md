@@ -15,7 +15,10 @@ Caso você quer apoiar no desenvolvimento e ajudar financeiramente basta enviar 
 | Bloqueio de dano por void |Você poderá bloquear o dano por void mas desabilite caso utilize mods de magia, ou terá risco de deixar o jogador invencível pelo voidDamange. |
 | Sistema de banir blocos |Consiga bloquear a colocação e destruição de blocos em seu servidor, em breve será alterado para banimentos em gerais, no momento apenas em testes.|
 <div align="center">
-
+<br><br>
+ 
+# Criador
+ 
 <br><br>
 <p align="center">
 <img src="https://avatars.githubusercontent.com/u/66142507?v=4" width="128" height="128"/>
@@ -44,6 +47,11 @@ Caso você quer apoiar no desenvolvimento e ajudar financeiramente basta enviar 
 
 I'm a simple man with objectives and high focus in programming, also i have 21 years old and living in Brazil.
 
+<br><br>
+
+# Propaganda
+
+<br><br>
 
 ## A melhor hospedagem de Minecraft
 
