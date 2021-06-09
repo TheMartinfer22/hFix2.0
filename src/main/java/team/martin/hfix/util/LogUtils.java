@@ -6,11 +6,12 @@ public class LogUtils {
 
     public void getInit(){
         ConfigUtils cfg = new ConfigUtils();
-        System.out.println("  _       _____   _        \n" +
-                " | |__   |  ___| (_) __  __\n" +
-                " | '_ \\  | |_    | | \\ \\/ /\n" +
-                " | | | | |  _|   | |  >  < \n" +
-                " |_| |_| |_|     |_| /_/\\_\\\n" +
+        System.out.println( ChatColor.GREEN +
+                "  _       _____   _        " + System.lineSeparator() + ChatColor.GREEN +
+                " | |__   |  ___| (_) __  __" + System.lineSeparator() + ChatColor.GREEN +
+                " | '_ \\  | |_    | | \\ \\/ /" + System.lineSeparator() + ChatColor.GREEN +
+                " | | | | |  _|   | |  >  < " + System.lineSeparator() + ChatColor.GREEN +
+                " |_| |_| |_|     |_| /_/\\_\\" + System.lineSeparator() + ChatColor.GREEN +
                 "                           ");
         cfg.getEventos();
         System.out.println();
