@@ -23,15 +23,14 @@ public class hFix extends JavaPlugin {
     @Override
     public void onEnable() {
         try {
-            log.getInit(); // Inicializador.
-            saveDefaultConfig(); // Salvando configuração padrão.
-
-            int pluginId = 11241; // Metrics bStats
-            new Metrics(this, pluginId); // Metrics bStats
+            log.getInit();
+            saveDefaultConfig();
+            int pluginId = 11241;
+            new Metrics(this, pluginId);
 
         } catch (Exception e){
-            System.out.println(ChatColor.RED + "Algo deu errado na inicialização.");
-            System.out.println(ChatColor.RED + "Reporte as frases abaixo na github https://github.com/TheMartinfer22/hFix");
+            System.out.println(ChatColor.RED + "Something went wrong at startup.");
+            System.out.println(ChatColor.RED + "Report the sentences below in GitHub https://github.com/TheMartinfer22/hFix");
             e.getStackTrace();
         }
     }

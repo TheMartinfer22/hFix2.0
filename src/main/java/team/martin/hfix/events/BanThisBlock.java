@@ -1,4 +1,4 @@
-package team.martin.hfix.fixes;
+package team.martin.hfix.events;
 
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;

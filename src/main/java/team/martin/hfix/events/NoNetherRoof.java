@@ -1,4 +1,4 @@
-package team.martin.hfix.bloqueios;
+package team.martin.hfix.events;
 
 import org.bukkit.Location;
 import org.bukkit.event.EventHandler;
