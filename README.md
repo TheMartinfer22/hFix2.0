@@ -8,7 +8,7 @@ Caso você quer apoiar no desenvolvimento e ajudar financeiramente basta enviar 
 ## Recursos
 
 <br><br>
-| Recursos atuais |Descrição|
+| Features |Descrição|
 |------|:---:
 | Bloqueio do teto do Nether |Você poderá bloquear que o jogador vá ao teto da dimensão do Nether.|
 | Correção de FakePlayers |Corrige todos os problemas causados por mods com máquinas na hora de executar alguma ação.|
