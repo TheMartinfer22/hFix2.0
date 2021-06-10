@@ -15,38 +15,7 @@ Caso você quer apoiar no desenvolvimento e ajudar financeiramente basta enviar 
 | Bloqueio de dano por void |Você poderá bloquear o dano por void, mas desabilite caso utilize mods de magia, ou terá risco de deixar o jogador invencível pelo voidDamange. |
 | Sistema de banir blocos |Consiga bloquear a colocação e destruição de blocos em seu servidor, em breve será alterado para banimentos em gerais, no momento apenas em testes.|
 <div align="center">
-<br><br>
  
-# Criador
- 
-<br><br>
-<p align="center">
-<img src="https://avatars.githubusercontent.com/u/66142507?v=4" width="128" height="128"/>
-</p>
-<p align="center">
-<a href="#"><img title="hFix" src="https://img.shields.io/badge/hFix-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
-</p>
-<p align="center">
-<a href="https://github.com/TheMartinfer22"><img title="Author" src="https://img.shields.io/badge/AUTHOR-TheMartinfer22-orange.svg?style=for-the-badge&logo=github"></a>
-</p>
-<p align="center">
-<a href="https://github.com/TheMartinfer22/followers"><img title="Followers" src="https://img.shields.io/github/followers/TheMartinfer22?color=blue&style=flat-square"></a>
-<a href="https://github.com/TheMartinfer22/hFix/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/TheMartinfer22/hFix?color=red&style=flat-square"></a>
-<a href="https://github.com/TheMartinfer22/hFix/network/members"><img title="Forks" src="https://img.shields.io/github/forks/TheMartinfer22/hFix?color=red&style=flat-square"></a>
-<a href="https://github.com/TheMartinfer22/hFix/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/TheMartinfer22/hFix?label=Watchers&color=blue&style=flat-square"></a>
-</p>
-<div align="center">
-<details>
- 
- <p></p>
- <summary>🥟 Fale comigo</summary>
- 
- **E-mail**: admin@huddouting.team
- 
-</details>
-
-I'm a simple man with objectives and high focus in programming, also i have 21 years old and living in Brazil.
-
 <br><br>
 
 # Propaganda
