@@ -6,7 +6,7 @@ package team.martin.hfix;
  * Caro desenvolvedor, permito apenas a criação de classes no projeto para você implementar novos recursos.
  * E sempre documente alterações.
  *
- * @version 1.4
+ * @version 1.6
  * @author Martinfer22
  */
 
