@@ -3,10 +3,7 @@ package team.martin.hfix.util;
 import org.bukkit.Bukkit;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.PluginManager;
-import team.martin.hfix.events.NoVoidDamage;
-import team.martin.hfix.events.NoNetherRoof;
-import team.martin.hfix.events.BanThisBlock;
-import team.martin.hfix.events.FakePlayers;
+import team.martin.hfix.events.*;
 import team.martin.hfix.hFix;
 
 import java.util.Arrays;
@@ -52,6 +49,11 @@ public class ConfigUtils{
      * getEventos, fará a execução da listagem de módulos do plugin.
      */
     public void getEventos(){
+
+        if (hFix.getPluginMainClass().getConfig().getBoolean("EnableLagVerify")){
+            pm.registerEvents(new LagVerify(), (hFix.getPluginMainClass()));
+        }
+
         if (hFix.getPluginMainClass().getConfig().getBoolean("EnableAntiCeilingNether")){ // Pegará na config.yml se a booleana AtivarAntiTetoNether está true
             try {
                 pm.registerEvents(new NoNetherRoof(), (hFix.getPluginMainClass())); // Casp esteja irá instanciar a classe NoNetherRoof
@@ -60,6 +62,7 @@ public class ConfigUtils{
                 System.out.println("*** Módulo de AntiTetoNether não compatível.");
             }
         }
+
         if (hFix.getPluginMainClass().getConfig().getBoolean("EnableFakePlayers")){
             try {
                 pm.registerEvents(new FakePlayers(), (hFix.getPluginMainClass()));
@@ -68,6 +71,7 @@ public class ConfigUtils{
                 System.out.println("*** Módulo de FakePlayers não compatível.");
             }
         }
+
         if (hFix.getPluginMainClass().getConfig().getBoolean("EnableAntiDanoDoVoid")){
             try {
                 pm.registerEvents(new NoVoidDamage(), (hFix.getPluginMainClass()));
@@ -76,6 +80,7 @@ public class ConfigUtils{
                 System.out.println("*** Módulo de AntiDanoDoVoid não compatível.");
             }
         }
+
         if (hFix.getPluginMainClass().getConfig().getBoolean("EnableBlockBans")){
             try {
                 pm.registerEvents(new BanThisBlock(), (hFix.getPluginMainClass()));
@@ -84,10 +89,5 @@ public class ConfigUtils{
                 System.out.println("*** Módulo de Banimentos de blocos não compatível.");
             }
         }
-
-        /*
-         * Marcação de insersão de funcionalidades.
-         */
-
     }
 }

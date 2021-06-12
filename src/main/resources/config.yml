@@ -26,6 +26,13 @@ BannedBlocks:
   - "minecraft:bedrock"
 
 
+#######################
+#       LagVerify     #
+#######################
+
+EnableLagVerify: true
+
+
 ###########################
 #       FakePlayers       #
 ###########################
