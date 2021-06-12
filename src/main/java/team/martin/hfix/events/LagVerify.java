@@ -1,3 +1,4 @@
+
 package team.martin.hfix.events;
 
 import org.bukkit.Bukkit;
@@ -25,6 +26,6 @@ public class LagVerify extends ConfigUtils implements Listener {
                 if (entity.fromMobSpawner()){
                     entity.remove();
                 }});
-            }
         }
     }
+}

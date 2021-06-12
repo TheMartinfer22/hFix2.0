@@ -48,19 +48,19 @@ public class ConfigUtils{
      * getEventos, fará a execução da listagem de módulos do plugin.
      */
     public void getEventos(){
+        System.out.println("Versão do servidor: " + hFix.getPluginMainClass().getServer().getVersion());
         pm.registerEvents(new VersionChecker(), (hFix.getPluginMainClass()));
 
         if (hFix.getPluginMainClass().getConfig().getBoolean("EnableLagVerify")){
-            if (!hFix.getPluginMainClass().getServer().getVersion().equals("3124-Spigot-66f9d3c-384e116 (MC: 1.17)")){
+            if (!hFix.getPluginMainClass().getServer().getVersion().contains("Spigot")){
                 try {
                     pm.registerEvents(new LagVerify(), (hFix.getPluginMainClass()));
                     System.out.println("[+] Módulo LagVerify.");
-                    System.out.println(hFix.getPluginMainClass().getServer().getVersion());
                 } catch (Exception e) {
                     System.out.println("*** Módulo de LagVerify não compatível.");
                 }
             } else {
-                System.out.println("*** Módulo de LagVerify não compatível. [1.17 ainda não está concluída]");
+                System.out.println("*** Módulo de LagVerify não é compatível com Spigot, utilize Paper. https://papermc.io/downloads");
             }
         }
 
