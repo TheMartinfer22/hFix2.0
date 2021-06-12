@@ -1,5 +1,6 @@
 package team.martin.hfix.events;
 
+import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
@@ -15,7 +16,7 @@ import team.martin.hfix.util.ConfigUtils;
 public class NoNetherRoof extends ConfigUtils implements Listener{
     @EventHandler(priority=EventPriority.HIGH)
     public void eventAntNetherY(PlayerMoveEvent e){
-        if (e.getPlayer().getWorld().getName().equals("world_nether")){ //Verificação se o jogador está na dimensão nether.
+        if (e.getPlayer().getWorld().getName().equals("world_nether")){
             if ((e.getPlayer().getLocation().getY() >= 127)) {
                 /*
                  * Bloco com a função de retornar a posição para 120 caso ele esteja na 127 Y
@@ -24,9 +25,9 @@ public class NoNetherRoof extends ConfigUtils implements Listener{
                             e.getPlayer().getLocation().getX(), 120,
                             e.getPlayer().getLocation().getZ());
                     e.getPlayer().sendTitle(getFraseAntiTetoDoNether()
-                                    .replace("&", "§"), // Substituição para colorir.
+                                    .replace("&", "§"),
                             getFraseAntiNetherYDOWN()
-                                    .replace("&", "§")); // Substituição para colorir.
+                                    .replace("&", "§"));
                     e.getPlayer().teleport(newLoc);
             }
         }

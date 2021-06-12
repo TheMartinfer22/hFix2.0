@@ -18,8 +18,8 @@ public class FakePlayers extends ConfigUtils implements Listener {
 
     @EventHandler(priority = EventPriority.HIGH)
     public void fixPlayerPlace (BlockPlaceEvent evento){
-        if (getFakePayers().contains(evento.getPlayer().getName())){ // Pegando o nome do jogador falso na lista config.yml
-            evento.setCancelled(false); // Não cancelar o evento e permitir que ele prossiga.
+        if (getFakePayers().contains(evento.getPlayer().getName())){
+            evento.setCancelled(false);
         }
     }
 

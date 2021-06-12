@@ -46,6 +46,7 @@ public class Metrics {
      * @param serviceId The id of the service. It can be found at <a
      *     href="https://bstats.org/what-is-my-plugin-id">What is my plugin id?</a>
      */
+
     public Metrics(JavaPlugin plugin, int serviceId) {
         this.plugin = plugin;
         // Get the config file
