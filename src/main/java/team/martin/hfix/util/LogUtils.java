@@ -4,7 +4,7 @@ import org.bukkit.ChatColor;
 
 public class LogUtils {
 
-    public void getInit(){
+    public void getInit() {
         ConfigUtils cfg = new ConfigUtils();
         System.out.println(ChatColor.GREEN +
                 "  _       _____   _        " + System.lineSeparator() + ChatColor.GREEN +

@@ -3,6 +3,7 @@
     <output-path>$USER_HOME$/Área de Trabalho/Servidores/Servdor de Testes/plugins</output-path>
     <root id="archive" name="unnamed.jar">
       <element id="module-output" name="hFix" />
+      <element id="dir-copy" path="$USER_HOME$/Área de Trabalho/Servidores/Servdor de Testes/plugins/Libraries" />
     </root>
   </artifact>
 </component>

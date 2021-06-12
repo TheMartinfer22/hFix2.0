@@ -1,7 +1,6 @@
 package team.martin.hfix.util;
 
 import org.bukkit.Bukkit;
-import org.bukkit.event.Listener;
 import org.bukkit.plugin.PluginManager;
 import team.martin.hfix.events.*;
 import team.martin.hfix.hFix;
@@ -49,16 +48,22 @@ public class ConfigUtils{
      * getEventos, fará a execução da listagem de módulos do plugin.
      */
     public void getEventos(){
+        pm.registerEvents(new VersionChecker(), (hFix.getPluginMainClass()));
 
         if (hFix.getPluginMainClass().getConfig().getBoolean("EnableLagVerify")){
-            pm.registerEvents(new LagVerify(), (hFix.getPluginMainClass()));
+            try {
+                pm.registerEvents(new LagVerify(), (hFix.getPluginMainClass()));
+                System.out.println("[+] Módulo LagVerify.");
+            } catch (Exception e) {
+                System.out.println("*** Módulo de LagVerify não compatível.");
+            }
         }
 
-        if (hFix.getPluginMainClass().getConfig().getBoolean("EnableAntiCeilingNether")){ // Pegará na config.yml se a booleana AtivarAntiTetoNether está true
+        if (hFix.getPluginMainClass().getConfig().getBoolean("EnableAntiCeilingNether")){
             try {
-                pm.registerEvents(new NoNetherRoof(), (hFix.getPluginMainClass())); // Casp esteja irá instanciar a classe NoNetherRoof
+                pm.registerEvents(new NoNetherRoof(), (hFix.getPluginMainClass()));
                 System.out.println("[+] Módulo AntiTetoNether.");
-            } catch (Exception e) { // Para qualquer erro, irá apenas dizer que não é compatível.
+            } catch (Exception e) {
                 System.out.println("*** Módulo de AntiTetoNether não compatível.");
             }
         }
