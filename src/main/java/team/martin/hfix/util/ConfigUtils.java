@@ -11,11 +11,11 @@ public class ConfigUtils{
     /*
      * Não se assuste com essa classe, apenas é para administrar o arquivo config.yml.
      */
-    PluginManager pm = Bukkit.getServer().getPluginManager(); // Irá pegar a classe Main do projeto.
+    PluginManager pm = Bukkit.getServer().getPluginManager();
 
 
     public String getFraseAntiTetoDoNether(){
-        return hFix.getPluginMainClass().getConfig().getString("PhraseAntiCeilingDoNetherTOP"); // Irá pegar na config.yml a opção FraseAntiTetoDoNetherTOP
+        return hFix.getPluginMainClass().getConfig().getString("PhraseAntiCeilingDoNetherTOP");
     }
 
     public String getFraseAntiNetherYDOWN(){
@@ -51,11 +51,16 @@ public class ConfigUtils{
         pm.registerEvents(new VersionChecker(), (hFix.getPluginMainClass()));
 
         if (hFix.getPluginMainClass().getConfig().getBoolean("EnableLagVerify")){
-            try {
-                pm.registerEvents(new LagVerify(), (hFix.getPluginMainClass()));
-                System.out.println("[+] Módulo LagVerify.");
-            } catch (Exception e) {
-                System.out.println("*** Módulo de LagVerify não compatível.");
+            if (!hFix.getPluginMainClass().getServer().getVersion().equals("3124-Spigot-66f9d3c-384e116 (MC: 1.17)")){
+                try {
+                    pm.registerEvents(new LagVerify(), (hFix.getPluginMainClass()));
+                    System.out.println("[+] Módulo LagVerify.");
+                    System.out.println(hFix.getPluginMainClass().getServer().getVersion());
+                } catch (Exception e) {
+                    System.out.println("*** Módulo de LagVerify não compatível.");
+                }
+            } else {
+                System.out.println("*** Módulo de LagVerify não compatível. [1.17 ainda não está concluída]");
             }
         }
 
