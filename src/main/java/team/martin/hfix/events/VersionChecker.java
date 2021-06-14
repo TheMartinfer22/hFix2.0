@@ -11,7 +11,7 @@ public class VersionChecker implements Listener {
 
     @EventHandler
     public void versionChecker(PlayerJoinEvent event) throws IOException {
-        String version = "1.7";
+        String version = "1.8";
 
         if (event.getPlayer().isOp()){
             String getVersion  = Jsoup.connect("https://themartinfer22.github.io/hFix/").get().title();

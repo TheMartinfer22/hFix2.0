@@ -8,6 +8,7 @@ import team.martin.hfix.hFix;
 
 public class ConfigUtils{
     PluginManager pm = Bukkit.getServer().getPluginManager();
+
     /*
      * getEventos, fará a execução da listagem de módulos do plugin.
      */
