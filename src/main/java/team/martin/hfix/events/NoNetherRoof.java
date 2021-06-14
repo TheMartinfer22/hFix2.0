@@ -1,13 +1,11 @@
 package team.martin.hfix.events;
 
-import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerMoveEvent;
 import team.martin.hfix.config.NoNetherRoofConfig;
-import team.martin.hfix.util.ConfigUtils;
 
 /*
  * Esses eventos estão como alta prioridade de execução para que possa ler cada ação,

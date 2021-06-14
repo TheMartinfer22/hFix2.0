@@ -6,7 +6,6 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.event.block.BlockPlaceEvent;
 import team.martin.hfix.config.BanThisBlockConfig;
-import team.martin.hfix.util.ConfigUtils;
 
 
 /*

@@ -7,7 +7,6 @@ import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityDamageEvent;
 import team.martin.hfix.config.NoVoidDamageConfig;
-import team.martin.hfix.util.ConfigUtils;
 
 /*
  * Esses eventos estão como alta prioridade de execução para que possa ler cada ação,
