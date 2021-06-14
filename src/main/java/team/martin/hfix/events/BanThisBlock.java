@@ -5,6 +5,7 @@ import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.event.block.BlockPlaceEvent;
+import team.martin.hfix.config.BanThisBlockConfig;
 import team.martin.hfix.util.ConfigUtils;
 
 
@@ -13,7 +14,7 @@ import team.martin.hfix.util.ConfigUtils;
  * Não causará problemas de desempenho.
  */
 
-public class BanThisBlock extends ConfigUtils implements Listener {
+public class BanThisBlock extends BanThisBlockConfig implements Listener {
 
     @EventHandler(priority = EventPriority.HIGH)
     public void onBlockPlace(BlockPlaceEvent evento) {

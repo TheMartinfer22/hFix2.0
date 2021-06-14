@@ -38,6 +38,7 @@ public class hFix extends JavaPlugin {
     public void onDisable() {
         log.getExit();
     }
+
     public static hFix getPluginMainClass(){
         return getPlugin(hFix.class);
     }

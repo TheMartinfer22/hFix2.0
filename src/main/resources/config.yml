@@ -1,16 +1,14 @@
 ##############################
 #       AntiCeilingNether    #
 ##############################
-
 EnableAntiCeilingNether: true
 PhraseAntiCeilingDoNetherTOP: "&4WARNING"
 PhraseAntiCeilingDoNetherDOWN: "You can not pass!"
 
 
 #############################
-#       AntiDamageDoVoid    #
+#       NoVoidDamage        #
 #############################
-
 EnableAntiDanoDoVoid: true
 PermissionAntiVoid: "hfix.void" #Don't leave this variable empty.
 AntiVoidPhrase: "You were saved by a mysterious force."
@@ -19,7 +17,6 @@ AntiVoidPhrase: "You were saved by a mysterious force."
 #######################
 #       BlockBan      #
 #######################
-
 EnableBlockBans: true
 BannedPhrase: "You cannot manipulate this block, it is banned from the server."
 BannedBlocks:
@@ -29,14 +26,19 @@ BannedBlocks:
 #######################
 #       LagVerify     #
 #######################
-
 EnableLagVerify: true
+
+
+###########################
+#       LimitMobChunk     #
+###########################
+EnableLimitMobChunk: true
+MobsPerChunk: 20
 
 
 ###########################
 #       FakePlayers       #
 ###########################
-
 EnableFakePlayers: true
 FakePlayers:
   - "[IF]"

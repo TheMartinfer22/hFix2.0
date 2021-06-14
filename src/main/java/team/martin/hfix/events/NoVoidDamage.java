@@ -6,6 +6,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityDamageEvent;
+import team.martin.hfix.config.NoVoidDamageConfig;
 import team.martin.hfix.util.ConfigUtils;
 
 /*
@@ -13,7 +14,7 @@ import team.martin.hfix.util.ConfigUtils;
  * Não causará problemas de desempenho.
  */
 
-public class NoVoidDamage extends ConfigUtils implements Listener {
+public class NoVoidDamage extends NoVoidDamageConfig implements Listener {
 
     @EventHandler(priority = EventPriority.HIGH)
     public void antiDanoDoVoid(EntityDamageEvent event){

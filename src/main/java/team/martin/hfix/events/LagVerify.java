@@ -6,11 +6,10 @@ import org.bukkit.Chunk;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerMoveEvent;
-import team.martin.hfix.util.ConfigUtils;
 
 import java.util.Arrays;
 
-public class LagVerify extends ConfigUtils implements Listener {
+public class LagVerify implements Listener {
 
     @EventHandler
     public void onTick(PlayerMoveEvent event){
