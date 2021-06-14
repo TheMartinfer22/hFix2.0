@@ -10,6 +10,7 @@ Caso você quer apoiar no desenvolvimento e ajudar financeiramente basta enviar 
 <br><br>
 | Features |Descrição|
 |------|:---:
+| Limite de mobs por chunk |Limite monstros por chunk, possibilitando maior desempenho.|
 | Sistema de verificação de Lag |Realiza verificações de lag e tenta otimizar (WIP).|
 | Bloqueio do teto do Nether |Você poderá bloquear que o jogador vá ao teto da dimensão do Nether.|
 | Correção de FakePlayers |Corrige todos os problemas causados por mods com máquinas na hora de executar alguma ação.|
