@@ -44,3 +44,14 @@ FakePlayers:
   - "[IF]"
   - "[Mekanism]"
   - "[AnotherFakePlayer]"
+
+###########################
+#       BlackList         #
+###########################
+MobsBlackList:
+  - "ENDER_DRAGON"
+  - "ENDER_CRYSTAL"
+  - "ARMOR_STAND"
+  - "VILLAGER"
+  - "VINDICATOR"
+  - "ITEM_FRAME"
