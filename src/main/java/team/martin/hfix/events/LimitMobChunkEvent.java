@@ -6,7 +6,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntitySpawnEvent;
 import team.martin.hfix.config.LimitMobChunkConfig;
 
-public class LimitMobChunk extends LimitMobChunkConfig implements Listener {
+public class LimitMobChunkEvent extends LimitMobChunkConfig implements Listener {
     @EventHandler
     public void checkMobs(EntitySpawnEvent event){
         Location location = event.getLocation();

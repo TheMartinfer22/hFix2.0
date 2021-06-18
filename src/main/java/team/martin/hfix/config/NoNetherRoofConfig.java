@@ -2,7 +2,7 @@ package team.martin.hfix.config;
 
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.PluginManager;
-import team.martin.hfix.events.NoNetherRoof;
+import team.martin.hfix.events.NoNetherRoofEvent;
 import team.martin.hfix.hFix;
 
 public class NoNetherRoofConfig {
@@ -10,7 +10,7 @@ public class NoNetherRoofConfig {
     public void enable(){
         if (hFix.getPluginMainClass().getConfig().getBoolean("EnableAntiCeilingNether")){
             try {
-                pm.registerEvents(new NoNetherRoof(), (hFix.getPluginMainClass()));
+                pm.registerEvents(new NoNetherRoofEvent(), (hFix.getPluginMainClass()));
                 System.out.println("[+] Módulo AntiTetoNether.");
             } catch (Exception e) {
                 System.out.println("*** Módulo de AntiTetoNether não compatível.");

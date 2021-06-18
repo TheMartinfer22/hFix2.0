@@ -13,7 +13,7 @@ import team.martin.hfix.config.NoVoidDamageConfig;
  * Não causará problemas de desempenho.
  */
 
-public class NoVoidDamage extends NoVoidDamageConfig implements Listener {
+public class NoVoidDamageEvent extends NoVoidDamageConfig implements Listener {
 
     @EventHandler(priority = EventPriority.HIGH)
     public void antiDanoDoVoid(EntityDamageEvent event){

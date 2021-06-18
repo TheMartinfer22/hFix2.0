@@ -12,7 +12,7 @@ import team.martin.hfix.config.NoNetherRoofConfig;
  * Não causará problemas de desempenho.
  */
 
-public class NoNetherRoof extends NoNetherRoofConfig implements Listener {
+public class NoNetherRoofEvent extends NoNetherRoofConfig implements Listener {
     @EventHandler(priority=EventPriority.HIGH)
     public void eventAntNetherY(PlayerMoveEvent e){
         if (e.getPlayer().getWorld().getName().equals("world_nether")){

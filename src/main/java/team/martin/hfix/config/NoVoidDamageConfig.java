@@ -2,7 +2,7 @@ package team.martin.hfix.config;
 
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.PluginManager;
-import team.martin.hfix.events.NoVoidDamage;
+import team.martin.hfix.events.NoVoidDamageEvent;
 import team.martin.hfix.hFix;
 
 public class NoVoidDamageConfig {
@@ -10,7 +10,7 @@ public class NoVoidDamageConfig {
     public void enable(){
         if (hFix.getPluginMainClass().getConfig().getBoolean("EnableAntiDanoDoVoid")){
             try {
-                pm.registerEvents(new NoVoidDamage(), (hFix.getPluginMainClass()));
+                pm.registerEvents(new NoVoidDamageEvent(), (hFix.getPluginMainClass()));
                 System.out.println("[+] Módulo AntiDanoDoVoid.");
             } catch (Exception e){
                 System.out.println("*** Módulo de AntiDanoDoVoid não compatível.");

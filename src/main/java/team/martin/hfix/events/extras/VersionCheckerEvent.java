@@ -1,4 +1,4 @@
-package team.martin.hfix.events;
+package team.martin.hfix.events.extras;
 
 import org.bukkit.ChatColor;
 import org.bukkit.event.EventHandler;
@@ -7,7 +7,7 @@ import org.bukkit.event.player.PlayerJoinEvent;
 import org.jsoup.Jsoup;
 import java.io.IOException;
 
-public class VersionChecker implements Listener {
+public class VersionCheckerEvent implements Listener {
 
     @EventHandler
     public void versionChecker(PlayerJoinEvent event) throws IOException {

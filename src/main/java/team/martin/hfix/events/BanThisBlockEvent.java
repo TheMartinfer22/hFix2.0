@@ -13,7 +13,7 @@ import team.martin.hfix.config.BanThisBlockConfig;
  * Não causará problemas de desempenho.
  */
 
-public class BanThisBlock extends BanThisBlockConfig implements Listener {
+public class BanThisBlockEvent extends BanThisBlockConfig implements Listener {
 
     @EventHandler(priority = EventPriority.HIGH)
     public void onBlockPlace(BlockPlaceEvent evento) {

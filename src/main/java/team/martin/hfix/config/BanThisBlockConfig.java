@@ -2,7 +2,7 @@ package team.martin.hfix.config;
 
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.PluginManager;
-import team.martin.hfix.events.BanThisBlock;
+import team.martin.hfix.events.BanThisBlockEvent;
 import team.martin.hfix.hFix;
 import team.martin.hfix.util.ConfigUtils;
 
@@ -13,7 +13,7 @@ public class BanThisBlockConfig extends ConfigUtils {
     public void enable(){
         if (hFix.getPluginMainClass().getConfig().getBoolean("EnableBlockBans")){
             try {
-                pm.registerEvents(new BanThisBlock(), (hFix.getPluginMainClass()));
+                pm.registerEvents(new BanThisBlockEvent(), (hFix.getPluginMainClass()));
                 System.out.println("[+] Módulo de Banimentos de blocos.");
             } catch (Exception e){
                 System.out.println("*** Módulo de Banimentos de blocos não compatível.");

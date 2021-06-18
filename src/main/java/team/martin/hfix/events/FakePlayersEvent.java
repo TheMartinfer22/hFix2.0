@@ -9,7 +9,7 @@ import org.bukkit.event.entity.EntityDamageEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
 import team.martin.hfix.config.FakePlayersConfig;
 
-public class FakePlayers extends FakePlayersConfig implements Listener {
+public class FakePlayersEvent extends FakePlayersConfig implements Listener {
 
     /*
      * Esses eventos estão como alta prioridade de execução para que possa ler cada ação,

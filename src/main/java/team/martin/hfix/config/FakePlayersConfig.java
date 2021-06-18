@@ -2,7 +2,7 @@ package team.martin.hfix.config;
 
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.PluginManager;
-import team.martin.hfix.events.FakePlayers;
+import team.martin.hfix.events.FakePlayersEvent;
 import team.martin.hfix.hFix;
 
 import java.util.Arrays;
@@ -12,7 +12,7 @@ public class FakePlayersConfig {
     public void enable(){
         if (hFix.getPluginMainClass().getConfig().getBoolean("EnableFakePlayers")){
             try {
-                pm.registerEvents(new FakePlayers(), (hFix.getPluginMainClass()));
+                pm.registerEvents(new FakePlayersEvent(), (hFix.getPluginMainClass()));
                 System.out.println("[+] Módulo FakePlayers.");
             } catch (Exception e) {
                 System.out.println("*** Módulo de FakePlayers não compatível.");

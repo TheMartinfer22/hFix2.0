@@ -12,7 +12,6 @@ package team.martin.hfix;
 
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
-import team.martin.hfix.events.LagVerify;
 import team.martin.hfix.util.LogUtils;
 import team.martin.hfix.util.Metrics;
 
