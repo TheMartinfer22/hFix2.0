@@ -21,6 +21,7 @@ public class ConfigUtils{
 
         try {
             pm.registerEvents(new MenuListenerEvent(), (hFix.getPluginMainClass()));
+            hFix.getPluginMainClass().getCommand("hfix").setExecutor(new MenuCommand());
             System.out.println("[+] Módulo de Menu habilitado com sucesso.");
         } catch (Exception e){
             System.out.println("*** Módulo de Menu não compatível.");
@@ -34,9 +35,5 @@ public class ConfigUtils{
         new LimitMobChunkConfig().enable();
         new NoNetherRoofConfig().enable();
         new NoVoidDamageConfig().enable();
-
-
-        // Carregamento de Comandos
-        hFix.getPluginMainClass().getCommand("hfix").setExecutor(new MenuCommand());
     }
 }
