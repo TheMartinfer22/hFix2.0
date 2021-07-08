@@ -19,17 +19,18 @@ public class ConfigUtils{
         System.out.println("Versão do servidor: " + hFix.getPluginMainClass().getServer().getVersion());
         pm.registerEvents(new VersionCheckerEvent(), (hFix.getPluginMainClass()));
 
-        try {
-            pm.registerEvents(new MenuListenerEvent(), (hFix.getPluginMainClass()));
-            hFix.getPluginMainClass().getCommand("hfix").setExecutor(new MenuCommand());
-            System.out.println("[+] Módulo de Menu habilitado com sucesso.");
-        } catch (Exception e){
-            System.out.println("*** Módulo de Menu não compatível.");
+        if (!Bukkit.getServer().getVersion().contains("(MC: 1.12.2)")){
+            try {
+                pm.registerEvents(new MenuListenerEvent(), (hFix.getPluginMainClass()));
+                hFix.getPluginMainClass().getCommand("hfix").setExecutor(new MenuCommand());
+                new BanThisBlockConfig().enable();
+            } catch (Exception e){
+                System.out.println("*** Desablitando alguns módulos (Menu, BanThisBlock)");
+            }
         }
 
         // Carregamento das config's
 
-        new BanThisBlockConfig().enable();
         new FakePlayersConfig().enable();
         new LagVerifyConfig().enable();
         new LimitMobChunkConfig().enable();
