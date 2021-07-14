@@ -7,3 +7,7 @@ description: Um plugin para gerar correções.
 website: huddouting.team
 commands:
   hfix:
+    description: Um comando para administrar o servidor.
+    permission: hfix.admin
+    aliases:
+      - hf
