@@ -2,9 +2,11 @@ package team.martin.hfix.util;
 
 import org.bukkit.ChatColor;
 
+import java.io.IOException;
+
 public class LogUtils {
 
-    public void getInit() {
+    public void getInit() throws IOException {
         ConfigUtils cfg = new ConfigUtils();
         System.out.println(ChatColor.GREEN +
                 "  _       _____   _        " + System.lineSeparator() + ChatColor.GREEN +
