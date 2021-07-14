@@ -12,12 +12,11 @@ import team.martin.hfix.config.BanThisBlockConfig;
  * Esses eventos estão como alta prioridade de execução para que possa ler cada ação,
  * Não causará problemas de desempenho.
  */
-
 public class BanThisBlockEvent extends BanThisBlockConfig implements Listener {
 
     @EventHandler(priority = EventPriority.HIGH)
     public void onBlockPlace(BlockPlaceEvent evento) {
-        if (evento.getBlock().getBlockData().getAsString().equals(getBlocosBanidos()
+        if (evento.getBlock().getType().toString().equals(getBlocosBanidos()
                 .replace("[[", "")
                 .replace("]]", "")) && (!evento.getPlayer().isOp())) {
             evento.setCancelled(true);
@@ -27,7 +26,7 @@ public class BanThisBlockEvent extends BanThisBlockConfig implements Listener {
 
     @EventHandler(priority = EventPriority.HIGH)
     public void onBlockBreak(BlockBreakEvent evento) {
-        if (evento.getBlock().getBlockData().getAsString().equals(getBlocosBanidos()
+        if (evento.getBlock().getType().toString().equals(getBlocosBanidos()
                 .replace("[[", "")
                 .replace("]]", "")) && (!evento.getPlayer().isOp())) {
             evento.setCancelled(true);
