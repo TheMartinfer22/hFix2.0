@@ -15,12 +15,12 @@ AntiVoidPhrase: "You were saved by a mysterious force."
 
 
 #######################
-#       BlockBan      #
+#       BanItems      #
 #######################
 EnableBlockBans: true
-BannedPhrase: "You cannot manipulate this block, it is banned from the server."
-BannedBlocks:
-  - "minecraft:bedrock"
+BannedPhrase: "The item you are trying to use is banned, you cannot do anything with it."
+BannedItems:
+  - "BEDROCK"
 
 
 #######################
