@@ -15,17 +15,15 @@ import team.martin.hfix.config.NoNetherRoofConfig;
 public class NoNetherRoofEvent extends NoNetherRoofConfig implements Listener {
     @EventHandler(priority=EventPriority.HIGH)
     public void eventAntNetherY(PlayerMoveEvent e){
-        if (e.getPlayer().getWorld().getName().equals("world_nether")){
-            if ((e.getPlayer().getLocation().getY() >= 127)) {
-                Location newLoc = new Location(e.getPlayer().getWorld(),
-                            e.getPlayer().getLocation().getX(), 120,
-                            e.getPlayer().getLocation().getZ());
-                    e.getPlayer().sendTitle(getFraseAntiTetoDoNether()
-                                    .replace("&", "§"),
-                            getFraseAntiNetherYDOWN()
-                                    .replace("&", "§"));
-                    e.getPlayer().teleport(newLoc);
-            }
+        if (e.getPlayer().getWorld().getName().equals("world_nether") && e.getPlayer().getLocation().getY() >= 127){
+            Location newLoc = new Location(e.getPlayer().getWorld(),
+                    e.getPlayer().getLocation().getX(), 120,
+                    e.getPlayer().getLocation().getZ());
+            e.getPlayer().sendTitle(getFraseAntiTetoDoNether()
+                            .replace("&", "§"),
+                    getFraseAntiNetherYDOWN()
+                            .replace("&", "§"));
+            e.getPlayer().teleport(newLoc);
         }
     }
 }
