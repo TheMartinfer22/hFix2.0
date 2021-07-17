@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="hFix">
+  <artifact type="jar" build-on-make="true" name="hFix 1.12.2">
     <output-path>$PROJECT_DIR$/../../Servidor/1.12.2 Mohist/plugins</output-path>
-    <root id="archive" name="hFix.jar">
+    <root id="archive" name="hFix 1.12.2.jar">
       <element id="module-output" name="hFix" />
       <element id="dir-copy" path="$PROJECT_DIR$/../../Libraries" />
     </root>

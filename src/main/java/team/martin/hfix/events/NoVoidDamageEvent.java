@@ -12,7 +12,6 @@ import team.martin.hfix.config.NoVoidDamageConfig;
  * Esses eventos estão como alta prioridade de execução para que possa ler cada ação,
  * Não causará problemas de desempenho.
  */
-
 public class NoVoidDamageEvent extends NoVoidDamageConfig implements Listener {
 
     @EventHandler(priority = EventPriority.HIGH)

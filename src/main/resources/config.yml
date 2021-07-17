@@ -14,12 +14,12 @@ PermissionAntiVoid: "hfix.void" #Don't leave this variable empty.
 AntiVoidPhrase: "You were saved by a mysterious force."
 
 
-#######################
-#       BanItems      #
-#######################
-EnableBlockBans: true
+###########################
+#       BannedBlocks      #
+###########################
+EnableBannedBlocks: true
 BannedPhrase: "The item you are trying to use is banned, you cannot do anything with it."
-BannedItems:
+BannedBlocks:
   - "BEDROCK"
 
 
@@ -44,6 +44,7 @@ FakePlayers:
   - "[IF]"
   - "[Mekanism]"
   - "[AnotherFakePlayer]"
+
 
 ###########################
 #       BlackList         #
