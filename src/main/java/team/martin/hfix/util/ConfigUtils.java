@@ -11,14 +11,13 @@ import team.martin.hfix.hFix;
 import java.io.IOException;
 
 public class ConfigUtils{
-    PluginManager pm = Bukkit.getServer().getPluginManager();
-
 
     /*
      * getEventos, fará a execução da listagem de módulos do plugin.
      */
     public void getEventos() throws IOException {
         System.out.println("Versão do servidor: " + hFix.getPluginMainClass().getServer().getVersion());
+
 
         // Version Manager
         String getVersion  = Jsoup.connect("https://themartinfer22.github.io/hFix/").get().title();
@@ -36,7 +35,6 @@ public class ConfigUtils{
         new NoNetherRoofConfig().enable();
         new NoVoidDamageConfig().enable();
         new BanThisBlockConfig().enable();
-
 
         // Carregamento dos comandos
         hFix.getPluginMainClass().getCommand("hfix").setExecutor(new MenuCommandChat());
