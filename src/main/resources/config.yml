@@ -46,9 +46,10 @@ FakePlayers:
   - "[AnotherFakePlayer]"
 
 
-###########################
-#       BlackList         #
-###########################
+###############################
+#       BlackListMobs         #
+###############################
+# Todos os mobs que não podem ser excluídos em limpezas
 MobsBlackList:
   - "ENDER_DRAGON"
   - "ENDER_CRYSTAL"
