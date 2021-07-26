@@ -6,6 +6,7 @@ import team.martin.hfix.events.FakePlayersEvent;
 import team.martin.hfix.hFix;
 
 import java.util.Arrays;
+import java.util.List;
 
 public class FakePlayersConfig {
     PluginManager pm = Bukkit.getServer().getPluginManager();
@@ -19,8 +20,7 @@ public class FakePlayersConfig {
             }
         }
     }
-    public String getFakePayers(){
-        String[] playersOFF = {hFix.getPluginMainClass().getConfig().getString("FakePlayers")}; // Irá pegar na config.yml uma lista de Strings.
-        return Arrays.toString(playersOFF);
+    public List<String> getFakePayers(){
+        return hFix.getPluginMainClass().getConfig().getStringList("FakePlayers");
     }
 }

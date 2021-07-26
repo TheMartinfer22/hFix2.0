@@ -20,6 +20,7 @@ public class FakePlayersEvent extends FakePlayersConfig implements Listener {
     public void fixPlayerPlace (BlockPlaceEvent evento){
         if (getFakePayers().contains(evento.getPlayer().getName())){
             evento.setCancelled(false);
+            evento.setBuild(true);
         }
     }
 
