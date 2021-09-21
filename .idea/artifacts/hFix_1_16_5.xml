@@ -1,9 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="hFix 1.16.5">
-    <output-path>$PROJECT_DIR$/../../Servidor/1.16.5/plugins</output-path>
-    <root id="archive" name="hFix 1.12.2.jar">
-      <element id="module-output" name="hFix" />
-      <element id="dir-copy" path="$PROJECT_DIR$/../../Libraries" />
-    </root>
-  </artifact>
-</component>

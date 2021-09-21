@@ -5,7 +5,6 @@ import org.bukkit.plugin.PluginManager;
 import team.martin.hfix.events.FakePlayersEvent;
 import team.martin.hfix.hFix;
 
-import java.util.Arrays;
 import java.util.List;
 
 public class FakePlayersConfig {
