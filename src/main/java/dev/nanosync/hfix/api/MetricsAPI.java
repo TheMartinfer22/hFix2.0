@@ -1,4 +1,4 @@
-package team.martin.hfix.metric;
+package dev.nanosync.hfix.api;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayOutputStream;
