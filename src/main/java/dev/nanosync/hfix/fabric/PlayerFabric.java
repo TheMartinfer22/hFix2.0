@@ -1,4 +1,4 @@
-package team.martin.hfix.fabric;
+package dev.nanosync.hfix.fabric;
 
 import org.bukkit.entity.Player;
 
