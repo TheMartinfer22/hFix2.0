@@ -1,4 +1,4 @@
-package team.martin.hfix.util;
+package team.martin.hfix.metric;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayOutputStream;
@@ -33,7 +33,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class Metrics {
+public class MetricsAPI {
 
     private final Plugin plugin;
 
@@ -47,7 +47,7 @@ public class Metrics {
      *     href="https://bstats.org/what-is-my-plugin-id">What is my plugin id?</a>
      */
 
-    public Metrics(JavaPlugin plugin, int serviceId) {
+    public MetricsAPI(JavaPlugin plugin, int serviceId) {
         this.plugin = plugin;
         // Get the config file
         File bStatsFolder = new File(plugin.getDataFolder().getParentFile(), "bStats");

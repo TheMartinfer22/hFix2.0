@@ -1,4 +1,4 @@
-package team.martin.hfix.events;
+package team.martin.hfix.features.player;
 
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
@@ -7,9 +7,9 @@ import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.event.block.BlockPlaceEvent;
 import org.bukkit.event.entity.EntityDamageEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
-import team.martin.hfix.config.FakePlayersConfig;
+import team.martin.hfix.old.config.FakePlayersConfig;
 
-public class FakePlayersEvent extends FakePlayersConfig implements Listener {
+public class FakePlayersForgeFeature extends FakePlayersConfig implements Listener {
 
     /*
      * Esses eventos estão como alta prioridade de execução para que possa ler cada ação,

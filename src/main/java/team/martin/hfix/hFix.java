@@ -12,8 +12,7 @@ package team.martin.hfix;
 
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
-import team.martin.hfix.util.ConfigUtils;
-import team.martin.hfix.util.Metrics;
+import team.martin.hfix.metric.MetricsFabric;
 
 public class hFix extends JavaPlugin {
 
@@ -29,11 +28,9 @@ public class hFix extends JavaPlugin {
                 " | | | | |  _|   | |  >  < " + System.lineSeparator() + ChatColor.GREEN +
                 " |_| |_| |_|     |_| /_/\\_\\" + System.lineSeparator() + ChatColor.GREEN +
                 "                           ");
-        System.out.println();
 
         cfg.getEventos();
-        int pluginId = 11241;
-        new Metrics(this, pluginId);
+        new MetricsFabric(this, 11241);
     }
     @Override
     public void onDisable() {
