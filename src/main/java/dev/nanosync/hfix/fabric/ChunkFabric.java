@@ -1,9 +1,7 @@
-package team.martin.hfix.fabric;
+package dev.nanosync.hfix.fabric;
 
 import org.bukkit.Chunk;
-import org.bukkit.entity.Entity;
-import org.bukkit.entity.Item;
-import org.bukkit.entity.Mob;
+import org.bukkit.entity.*;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -56,7 +54,7 @@ public class ChunkFabric {
     public List<Entity> getMobs(){
         List<Entity> mobsList = new ArrayList<>();
         Arrays.stream(chunk.getEntities()).forEach(entity -> {
-            if (entity instanceof Mob) mobsList.add(entity);
+            if (entity instanceof Animals || entity instanceof Monster) mobsList.add(entity);
         });
         return mobsList;
     }
