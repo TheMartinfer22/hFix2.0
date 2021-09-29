@@ -1,4 +1,4 @@
-package team.martin.hfix;
+package dev.nanosync.hfix;
 
 /**
  *
@@ -10,16 +10,22 @@ package team.martin.hfix;
  */
 
 
+import dev.nanosync.hfix.features.mob.LimitMobsFeature;
+import dev.nanosync.hfix.api.MetricsAPI;
+import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
+import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
-import team.martin.hfix.metric.MetricsFabric;
 
 public class hFix extends JavaPlugin {
 
     @Override
     public void onEnable() {
         saveDefaultConfig();
-        ConfigUtils cfg = new ConfigUtils();
+        new MetricsAPI(this, 11241);
+
+        PluginManager pluginManager = Bukkit.getPluginManager();
+        pluginManager.registerEvents(new LimitMobsFeature(), this);
 
         System.out.println(ChatColor.GREEN +
                 "  _       _____   _        " + System.lineSeparator() + ChatColor.GREEN +
@@ -29,8 +35,7 @@ public class hFix extends JavaPlugin {
                 " |_| |_| |_|     |_| /_/\\_\\" + System.lineSeparator() + ChatColor.GREEN +
                 "                           ");
 
-        cfg.getEventos();
-        new MetricsFabric(this, 11241);
+
     }
     @Override
     public void onDisable() {

@@ -1,13 +1,7 @@
 name: hFix
 version: ${project.version}
-main: team.martin.hfix.hFix
+main: dev.nanosync.hfix.hFix
 api-version: 1.16
 authors: [ Martinfer22 ]
-description: Um plugin para gerar correções.
-website: huddouting.team
-commands:
-  hfix:
-    description: Um comando para administrar o servidor.
-    permission: hfix.admin
-    aliases:
-      - hf
+description: Um plugin para gerar correções e debugs.
+website: nanosync.dev
