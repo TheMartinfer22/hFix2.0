@@ -1,10 +1,7 @@
-package team.martin.hfix.fabric;
+package dev.nanosync.hfix.fabric;
 
-import org.bukkit.Bukkit;
 import org.bukkit.World;
-import org.bukkit.entity.Entity;
-import org.bukkit.entity.Item;
-import org.bukkit.entity.Mob;
+import org.bukkit.entity.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -56,7 +53,7 @@ public class WorldFabric {
     public List<Entity> getMobs(){
         List<Entity> mobsList = new ArrayList<>();
         world.getEntities().forEach(entity -> {
-            if (entity instanceof Mob) mobsList.add(entity);
+            if (entity instanceof Animals || entity instanceof Monster) mobsList.add(entity);
         });
         return mobsList;
     }
